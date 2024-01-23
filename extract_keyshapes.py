@@ -5,7 +5,7 @@ import bpy
 import os
 from pathlib import Path
 
-cur_dir = "/Users/pkorobov/Desktop"
+cur_dir = "/specify/a/path"
 os.chdir(cur_dir)
 
 # Reference the active object

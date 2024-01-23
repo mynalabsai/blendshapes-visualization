@@ -5,6 +5,8 @@ import os
 import numpy as np
 import pickle
 
+cur_dir = "/specify/a/path"
+os.chdir(cur_dir)
 
 coeffs = np.load("video_coefficients.npy")
 blendshape_names = np.load("blendshape_names.npy")
